@@ -5,15 +5,13 @@ import bethlehem.springframework.spring5recipeapp.converters.RecipeCommandToReci
 import bethlehem.springframework.spring5recipeapp.converters.RecipeToRecipeCommand;
 import bethlehem.springframework.spring5recipeapp.domain.Recipe;
 import bethlehem.springframework.spring5recipeapp.repositories.RecipeRepository;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.Assert.assertEquals;
-@RunWith(SpringRunner.class)
+
 @SpringBootTest
 public class RecipeServiceTest {
     public static final String NEW_DESCRIPTION = "New Description";
