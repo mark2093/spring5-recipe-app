@@ -5,8 +5,8 @@ import bethlehem.springframework.spring5recipeapp.commands.RecipeCommand;
 import bethlehem.springframework.spring5recipeapp.services.IngredientService;
 import bethlehem.springframework.spring5recipeapp.services.RecipeService;
 import bethlehem.springframework.spring5recipeapp.services.UnitOfMeasureService;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
@@ -36,7 +36,7 @@ public class IngredientControllerTest {
 
     MockMvc mockMvc;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 

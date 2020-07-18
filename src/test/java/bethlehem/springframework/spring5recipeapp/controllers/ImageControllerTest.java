@@ -3,10 +3,13 @@ package bethlehem.springframework.spring5recipeapp.controllers;
 import bethlehem.springframework.spring5recipeapp.commands.RecipeCommand;
 import bethlehem.springframework.spring5recipeapp.services.ImageService;
 import bethlehem.springframework.spring5recipeapp.services.RecipeService;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.web.servlet.MockMvc;
@@ -18,6 +21,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.multipart;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+@ExtendWith(MockitoExtension.class)
 public class ImageControllerTest {
 
     @Mock
@@ -26,11 +30,12 @@ public class ImageControllerTest {
     @Mock
     RecipeService recipeService;
 
+    @InjectMocks
     ImageController controller;
 
     MockMvc mockMvc;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 
