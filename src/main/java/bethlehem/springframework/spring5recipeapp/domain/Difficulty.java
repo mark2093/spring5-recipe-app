@@ -2,6 +2,6 @@ package bethlehem.springframework.spring5recipeapp.domain;
 
 public enum Difficulty {
 
-    Easy, HARD, MODERATE;
+    EASY, MODERATE, KIND_OF_HARD, HARD
 
 }
