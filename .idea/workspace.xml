@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="Project setup with Junit5 &amp; Project Lombok">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/controllers/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/controllers/ImageControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="Plugin Fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595074844449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Plugin Fix">
+      <created>1595079594185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595079594185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +269,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Project setup with Junit5 &amp; Project Lombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project setup with Junit5 &amp; Project Lombok" />
+    <MESSAGE value="Plugin Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plugin Fix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -302,30 +306,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1594995254511" />
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1595079344927">
+    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1595079764944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079344927" />
-    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1595079344927">
+    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079764944" />
+    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1595079764944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079344927" />
-    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1595079344927">
+    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079764944" />
+    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1595079764943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079344927" />
-    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1595079344927">
+    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079764943" />
+    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1595079764944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079344927" />
+    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079764944" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1595058561200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595058561200" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595074864629">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595079597158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595074864629" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079597158" />
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595055963918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -334,10 +338,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="109" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595074339337" />
-    <state x="389" y="151" key="git4idea.merge.GitPullDialog" timestamp="1595075633146">
+    <state x="389" y="151" key="git4idea.merge.GitPullDialog" timestamp="1595079755872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="151" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595075633146" />
+    <state x="389" y="151" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595079755872" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
