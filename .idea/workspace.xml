@@ -19,26 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="Test Classes &amp; Plugin Fix">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_en_US.properties" afterDir="false" />
+    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="path fixed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/CategoryToCategoryCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/IngredientCommandToIngredientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/IngredientToIngredientCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/NotesCommandToNotesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/NotesToNotesCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/RecipeCommandToRecipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/RecipeToRecipeCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recipe/imageuploadform.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/recipe/imageuploadform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recipe/ingredient/ingredientform.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/recipe/ingredient/ingredientform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recipe/ingredient/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/recipe/ingredient/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recipe/ingredient/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/recipe/ingredient/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recipe/recipeform.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/recipe/recipeform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recipe/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/recipe/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/controllers/RecipeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/controllers/RecipeControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +42,8 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +102,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.spring5-recipe-app [clean...]">
+  <component name="RunManager" selected="JUnit.All in spring5-recipe-app">
     <configuration name="Spring5RecipeAppApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bethlehem.springframework.spring5recipeapp.Spring5RecipeAppApplication" />
       <module name="spring5-recipe-app" />
@@ -121,6 +113,29 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="bethlehem.springframework.spring5recipeapp.Spring5RecipeAppApplication" />
       <module name="spring5-recipe-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in spring5-recipe-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bethlehem.springframework.spring5recipeapp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bethlehem.springframework.spring5recipeapp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="bethlehem.springframework.spring5recipeapp.controllers.RecipeControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,6 +151,20 @@
       <option name="PACKAGE_NAME" value="bethlehem.springframework.spring5recipeapp" />
       <option name="MAIN_CLASS_NAME" value="bethlehem.springframework.spring5recipeapp.Spring5RecipeAppApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bethlehem.springframework.spring5recipeapp.converters in spring5-recipe-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bethlehem.springframework.spring5recipeapp.converters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bethlehem.springframework.spring5recipeapp.converters" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,10 +198,16 @@
     <list>
       <item itemvalue="Application.Spring5RecipeAppApplication" />
       <item itemvalue="JUnit.Spring5RecipeAppApplicationTests" />
+      <item itemvalue="JUnit.RecipeControllerTest" />
       <item itemvalue="Maven.spring5-recipe-app [clean...]" />
+      <item itemvalue="JUnit.bethlehem.springframework.spring5recipeapp.converters in spring5-recipe-app" />
+      <item itemvalue="JUnit.All in spring5-recipe-app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in spring5-recipe-app" />
+        <item itemvalue="JUnit.bethlehem.springframework.spring5recipeapp.converters in spring5-recipe-app" />
+        <item itemvalue="JUnit.RecipeControllerTest" />
         <item itemvalue="JUnit.Spring5RecipeAppApplicationTests" />
       </list>
     </recent_temporary>
@@ -216,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595083111518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="path fixed">
+      <created>1595145008124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595145008124</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +279,8 @@
     <MESSAGE value="Project setup with Junit5 &amp; Project Lombok" />
     <MESSAGE value="Plugin Fix" />
     <MESSAGE value="Test Classes &amp; Plugin Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Classes &amp; Plugin Fix" />
+    <MESSAGE value="path fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="path fixed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -269,30 +312,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="383" y="232" width="599" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595051531440" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1595138893005">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1595145307125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595138893005" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595145307125" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594995254511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1594995254511" />
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1595144009356">
+    <state width="1322" height="175" key="GridCell.Tab.0.bottom" timestamp="1595603845806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595144009356" />
-    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1595144009356">
+    <state width="1322" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595603845806" />
+    <state width="1322" height="175" key="GridCell.Tab.0.center" timestamp="1595603845806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595144009356" />
-    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1595144009355">
+    <state width="1322" height="175" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595603845806" />
+    <state width="1322" height="175" key="GridCell.Tab.0.left" timestamp="1595603845806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595144009355" />
-    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1595144009356">
+    <state width="1322" height="175" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595603845806" />
+    <state width="1322" height="175" key="GridCell.Tab.0.right" timestamp="1595603845806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595144009356" />
+    <state width="1322" height="175" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595603845806" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1595080858111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,10 +344,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595058561200" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595083120460">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595145012960">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595083120460" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595145012960" />
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595055963918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
