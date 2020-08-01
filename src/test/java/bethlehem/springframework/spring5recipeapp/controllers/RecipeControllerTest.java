@@ -4,8 +4,8 @@ import bethlehem.springframework.spring5recipeapp.commands.RecipeCommand;
 import bethlehem.springframework.spring5recipeapp.domain.Recipe;
 import bethlehem.springframework.spring5recipeapp.exceptions.NotFoundException;
 import bethlehem.springframework.spring5recipeapp.services.RecipeService;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
@@ -28,14 +28,12 @@ public class RecipeControllerTest {
 
     MockMvc mockMvc;
 
-    @BeforeEach
+    @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 
         controller = new RecipeController(recipeService);
-        mockMvc = MockMvcBuilders.standaloneSetup(controller)
-                .setControllerAdvice(new ControllerExceptionHandler())
-                .build();
+        mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
     }
 
     @Test
@@ -91,27 +89,9 @@ public class RecipeControllerTest {
                 .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                 .param("id", "")
                 .param("description", "some string")
-                .param("directions", "some directions")
         )
                 .andExpect(status().is3xxRedirection())
                 .andExpect(view().name("redirect:/recipe/2/show"));
-    }
-
-    @Test
-    public void testPostNewRecipeFormValidationFail() throws Exception {
-        RecipeCommand command = new RecipeCommand();
-        command.setId(2L);
-
-        when(recipeService.saveRecipeCommand(any())).thenReturn(command);
-
-        mockMvc.perform(post("/recipe")
-                .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                .param("id", "")
-
-        )
-                .andExpect(status().isOk())
-                .andExpect(model().attributeExists("recipe"))
-                .andExpect(view().name("recipe/recipeform"));
     }
 
     @Test
