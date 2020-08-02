@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="mongo config added">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/repositories/UnitOfMeasureRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring5-recipe-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring5-recipe-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="Test fixed">
       <change beforePath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/controllers/IngredientControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bethlehem/springframework/spring5recipeapp/controllers/IngredientControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596349297824</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test fixed">
+      <created>1596354327550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596354327550</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +302,8 @@
     <MESSAGE value="Command Test added." />
     <MESSAGE value="SQL config added" />
     <MESSAGE value="mongo config added" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongo config added" />
+    <MESSAGE value="Test fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test fixed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -369,10 +372,10 @@
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595058561200" />
     <state x="1538" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.768@1366.0.1280.768" timestamp="1596260377313" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596349312304">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596354357553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596349312304" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596354357553" />
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595055963918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
