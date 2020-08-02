@@ -10,6 +10,7 @@ bethlehem\springframework\spring5recipeapp\converters\NotesCommandToNotes.class
 bethlehem\springframework\spring5recipeapp\repositories\RecipeRepository.class
 bethlehem\springframework\spring5recipeapp\domain\Category.class
 bethlehem\springframework\spring5recipeapp\bootstrap\RecipeBootstrap.class
+bethlehem\springframework\spring5recipeapp\bootstrap\BootStrapMySQL.class
 bethlehem\springframework\spring5recipeapp\converters\UnitOfMeasureCommandToUnitOfMeasure.class
 bethlehem\springframework\spring5recipeapp\services\ImageServiceImpl.class
 bethlehem\springframework\spring5recipeapp\services\RecipeServiceImpl.class

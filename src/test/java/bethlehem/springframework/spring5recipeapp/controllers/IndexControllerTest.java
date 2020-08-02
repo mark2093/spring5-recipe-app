@@ -2,7 +2,7 @@ package bethlehem.springframework.spring5recipeapp.controllers;
 
 import bethlehem.springframework.spring5recipeapp.domain.Recipe;
 import bethlehem.springframework.spring5recipeapp.services.RecipeService;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
@@ -30,7 +30,7 @@ public class IndexControllerTest {
 
     IndexController controller;
 
-    @BeforeEach
+    @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 
@@ -54,11 +54,11 @@ public class IndexControllerTest {
         recipes.add(new Recipe());
 
         Recipe recipe = new Recipe();
-        recipe.setId(1L);
+        recipe.setId("1");
 
         recipes.add(recipe);
 
-        when(recipeService.getRecipes()).thenReturn(recipes);
+//        when(recipeService.getRecipes()).thenReturn(recipes);
 
         ArgumentCaptor<Set<Recipe>> argumentCaptor = ArgumentCaptor.forClass(Set.class);
 
