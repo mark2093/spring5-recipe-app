@@ -22,7 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="Test fixed" />
+    <list default="true" id="a2828675-195b-4a83-a6b7-ac4b62180375" name="Default Changelist" comment="Test fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_flapdoodle_embed_de_flapdoodle_embed_mongo_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_flapdoodle_embed_de_flapdoodle_embed_mongo_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_flapdoodle_embed_de_flapdoodle_embed_process_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_flapdoodle_embed_de_flapdoodle_embed_process_2_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring5-recipe-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring5-recipe-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bethlehem/springframework/spring5recipeapp/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bethlehem/springframework/spring5recipeapp/bootstrap/RecipeBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,7 +63,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="mongo-db" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,11 +102,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -107,7 +124,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.bethlehem.springframework.spring5recipeapp in spring5-recipe-app">
+  <component name="RunManager" selected="Maven.spring5-recipe-app [clean...]">
     <configuration name="Spring5RecipeAppApplication Mongo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="bethlehem.springframework.spring5recipeapp.Spring5RecipeAppApplication" />
       <module name="spring5-recipe-app" />
@@ -191,11 +208,14 @@
       <item itemvalue="Application.Spring5RecipeAppApplication" />
       <item itemvalue="Application.Spring5RecipeAppApplication Mongo" />
       <item itemvalue="JUnit.bethlehem.springframework.spring5recipeapp in spring5-recipe-app" />
-      <item itemvalue="Maven.spring5-recipe-app [clean...]" />
       <item itemvalue="JUnit.IngredientControllerTest" />
+      <item itemvalue="Maven.spring5-recipe-app [clean...]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IngredientControllerTest" />
+        <item itemvalue="JUnit.bethlehem.springframework.spring5recipeapp in spring5-recipe-app" />
+        <item itemvalue="JUnit.IngredientControllerTest" />
         <item itemvalue="JUnit.bethlehem.springframework.spring5recipeapp in spring5-recipe-app" />
         <item itemvalue="JUnit.IngredientControllerTest" />
       </list>
@@ -317,14 +337,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="226" key="#Notifications/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595057795555" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1596815616476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596815616476" />
     <state x="286" y="0" key="#Spring5RecipeAppApplicationTests.contextLoads" timestamp="1595058576222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="286" y="0" key="#Spring5RecipeAppApplicationTests.contextLoads/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595058576222" />
-    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596347380398">
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596372496744">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596347380398" />
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596372496744" />
     <state x="463" y="68" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1596265551835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -345,7 +369,7 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="222" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596355023470" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1595145307125">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1596816631351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595145307125" />
@@ -353,22 +377,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1594995254511" />
-    <state width="1322" height="195" key="GridCell.Tab.0.bottom" timestamp="1596354815089">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1596817155464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596354815089" />
-    <state width="1322" height="195" key="GridCell.Tab.0.center" timestamp="1596354815088">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596817155464" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1596817155463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="195" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596354815088" />
-    <state width="1322" height="195" key="GridCell.Tab.0.left" timestamp="1596354815088">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596817155463" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1596817155463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="195" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596354815088" />
-    <state width="1322" height="195" key="GridCell.Tab.0.right" timestamp="1596354815089">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596817155463" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1596817155463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="195" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596354815089" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596817155463" />
     <state x="263" y="98" key="IDE.errors.dialog" timestamp="1596286530137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -377,11 +405,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1596352136397" />
-    <state x="1538" y="0" key="SettingsEditor" timestamp="1596260377313">
-      <screen x="1366" y="0" width="1280" height="768" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1596814658548">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595058561200" />
     <state x="1538" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.768@1366.0.1280.768" timestamp="1596260377313" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596814658548" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596354859964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -398,6 +427,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="151" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1280.768@0.0.1366.728" timestamp="1595656202272" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1596816898175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1596816898175" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
