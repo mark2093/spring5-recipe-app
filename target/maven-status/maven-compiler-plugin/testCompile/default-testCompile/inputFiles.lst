@@ -2,6 +2,7 @@ D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework
 D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\services\RecipeServiceTest.java
 D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\converters\CategoryToCategoryCommandTest.java
 D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\controllers\ImageControllerTest.java
+D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\repositories\UnitOfMeasureRepositoryTest.java
 D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\converters\RecipeCommandToRecipeTest.java
 D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\converters\UnitOfMeasureCommandToUnitOfMeasureTest.java
 D:\Project\Udemy\Java\spring5-recipe-app\src\test\java\bethlehem\springframework\spring5recipeapp\converters\NotesCommandToNotesTest.java
